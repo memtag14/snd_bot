@@ -20,7 +20,7 @@ async def start(msg: types.Message):
         "👋 Привет!\n\n"
         "Здесь ты можешь создать прямую ссылку на сайт.\n\n"
         "ℹ️ Прямые ссылки можно получить через:\n"
-        "👉 https://image2url.com\n\n"
+        "👉 @xosting_memtag14_robot // https://memtag14.github.io/media-host/\n\n"
         "Выбери стиль:",
         reply_markup=kb
     )
@@ -70,3 +70,4 @@ async def handle_input(msg: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
